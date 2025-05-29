@@ -10,7 +10,7 @@ export default function AboutPage() {
     <>
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-primary-50 to-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               회사소개
@@ -23,7 +23,7 @@ export default function AboutPage() {
       </section>
 
       {/* Vision & Mission */}
-      <section className="py-20">
+      <section className="py-20 bg-primary-50 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12">
             <div>
@@ -72,7 +72,7 @@ export default function AboutPage() {
               </div>
               <p className="text-gray-600 leading-relaxed">
                 알프는 &apos;A Life-changing Platform&apos;의 약자로, 사용자의 일상을 변화시키는 플랫폼이라는 의미를 담고 있습니다. 
-                2022년 첫 출시 이후, 수많은 사용자들의 일상을 더욱 스마트하고 효율적으로 만들어왔습니다. 
+                2025년 첫 출시 이후, 수많은 사용자들의 일상을 더욱 스마트하고 효율적으로 만들어왔습니다. 
                 알프는 단순한 서비스를 넘어, 사용자와 함께 성장하는 라이프스타일 파트너를 지향합니다.
               </p>
             </div>
@@ -98,14 +98,14 @@ export default function AboutPage() {
       </section>
 
       {/* CEO Message */}
-      <section className="py-20">
+      <section className="py-20 bg-primary-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">대표 인사말</h2>
           
           <div className="bg-white rounded-lg shadow-lg p-8 md:p-12">
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-700 leading-relaxed mb-6">
-                안녕하세요, 주식회사 쉐릿 대표이사입니다.
+                안녕하세요, 주식회사 쉐릿 대표이사 김세영입니다.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 쉐릿은 &apos;공유하다(Share it)&apos;라는 의미에서 출발했습니다. 
@@ -124,7 +124,7 @@ export default function AboutPage() {
                 많은 관심과 응원 부탁드립니다.
               </p>
               <p className="text-right mt-8 text-gray-600">
-                주식회사 쉐릿 대표이사 올림
+                주식회사 쉐릿 대표이사 김세영 올림.
               </p>
             </div>
           </div>

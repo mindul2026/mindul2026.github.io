@@ -23,7 +23,7 @@ export default function ServicesPage() {
       </section>
 
       {/* ALF Service Detail */}
-      <section id="alf" className="py-20">
+      <section id="alf" className="py-20 bg-primary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>

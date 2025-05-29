@@ -28,7 +28,7 @@ export default function ContactPage() {
     e.preventDefault()
     // 여기에 폼 제출 로직 추가
     console.log('Form submitted:', formData)
-    alert('문의가 접수되었습니다. 빠른 시일 내에 답변드리겠습니다.')
+    alert('기능 구현중입니다. 빠른 시일 내에 서비스하겠습니다.')
   }
 
   return (
@@ -48,7 +48,7 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20">
+      <section className="py-20 bg-primary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12">
             {/* Contact Information */}
@@ -64,7 +64,7 @@ export default function ContactPage() {
                   </div>
                   <div className="ml-4">
                     <h3 className="text-lg font-medium text-gray-900">이메일</h3>
-                    <p className="mt-1 text-gray-600">contact@sherit.co.kr</p>
+                    <p className="mt-1 text-gray-600">keynes30@naver.com</p>
                   </div>
                 </div>
 
@@ -76,7 +76,7 @@ export default function ContactPage() {
                   </div>
                   <div className="ml-4">
                     <h3 className="text-lg font-medium text-gray-900">전화</h3>
-                    <p className="mt-1 text-gray-600">02-1234-5678</p>
+                    <p className="mt-1 text-gray-600">070-7798-2008</p>
                   </div>
                 </div>
 
@@ -90,8 +90,8 @@ export default function ContactPage() {
                   <div className="ml-4">
                     <h3 className="text-lg font-medium text-gray-900">주소</h3>
                     <p className="mt-1 text-gray-600">
-                      서울특별시 강남구 테헤란로 123<br />
-                      쉐릿빌딩 10층
+                    전북 전주시 덕진구 만성북로 21-26, 304호<br />
+                      
                     </p>
                   </div>
                 </div>
@@ -113,7 +113,7 @@ export default function ContactPage() {
               </div>
 
               {/* Social Media */}
-              <div className="mt-8">
+              {/* <div className="mt-8">
                 <h3 className="text-lg font-medium text-gray-900 mb-4">소셜미디어</h3>
                 <div className="flex space-x-4">
                   <a href="#" className="text-gray-400 hover:text-primary-600 transition-colors">
@@ -129,7 +129,7 @@ export default function ContactPage() {
                     </svg>
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Contact Form */}

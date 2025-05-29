@@ -9,39 +9,39 @@ export const metadata: Metadata = {
 const newsData = [
   {
     id: 1,
-    title: '알프(ALF) 2.0 버전 업데이트 안내',
-    date: '2024-01-15',
-    category: '서비스 업데이트',
-    excerpt: '더욱 강력해진 개인화 기능과 새로운 UI/UX로 찾아뵙니다. 사용자 여러분의 피드백을 반영하여...',
+    title: '알프(ALF) 1.0 버전 배포 안내',
+    date: '2025-05-30',
+    category: '서비스 배포 예정입니다.',
+    excerpt: '배포 예정에 있습니다.',
   },
-  {
-    id: 2,
-    title: '밥플(Babple) 신규 기능 출시',
-    date: '2024-01-10',
-    category: '서비스 업데이트',
-    excerpt: 'AI 기반 맞춤형 레시피 추천 기능이 추가되었습니다. 이제 냉장고 속 재료만으로도...',
-  },
-  {
-    id: 3,
-    title: '2024년 신년 인사',
-    date: '2024-01-01',
-    category: '공지사항',
-    excerpt: '새해 복 많이 받으세요! 2024년에도 주식회사 쉐릿은 여러분의 일상을 더욱 특별하게...',
-  },
-  {
-    id: 4,
-    title: '연말연시 고객 감사 이벤트',
-    date: '2023-12-20',
-    category: '이벤트',
-    excerpt: '한 해 동안 보내주신 사랑에 감사드리며, 특별한 이벤트를 준비했습니다...',
-  },
-  {
-    id: 5,
-    title: '서비스 정기 점검 안내',
-    date: '2023-12-15',
-    category: '공지사항',
-    excerpt: '더 나은 서비스 제공을 위한 정기 점검이 예정되어 있습니다. 점검 시간 동안...',
-  },
+  // {
+  //   id: 2,
+  //   title: '밥플(Babple) 신규 기능 출시',
+  //   date: '2024-01-10',
+  //   category: '서비스 업데이트',
+  //   excerpt: 'AI 기반 맞춤형 레시피 추천 기능이 추가되었습니다. 이제 냉장고 속 재료만으로도...',
+  // },
+  // {
+  //   id: 3,
+  //   title: '2024년 신년 인사',
+  //   date: '2024-01-01',
+  //   category: '공지사항',
+  //   excerpt: '새해 복 많이 받으세요! 2024년에도 주식회사 쉐릿은 여러분의 일상을 더욱 특별하게...',
+  // },
+  // {
+  //   id: 4,
+  //   title: '연말연시 고객 감사 이벤트',
+  //   date: '2023-12-20',
+  //   category: '이벤트',
+  //   excerpt: '한 해 동안 보내주신 사랑에 감사드리며, 특별한 이벤트를 준비했습니다...',
+  // },
+  // {
+  //   id: 5,
+  //   title: '서비스 정기 점검 안내',
+  //   date: '2023-12-15',
+  //   category: '공지사항',
+  //   excerpt: '더 나은 서비스 제공을 위한 정기 점검이 예정되어 있습니다. 점검 시간 동안...',
+  // },
 ]
 
 export default function NewsPage() {
@@ -62,7 +62,7 @@ export default function NewsPage() {
       </section>
 
       {/* News List */}
-      <section className="py-20">
+      <section className="py-20 bg-primary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Category Filter */}
           <div className="mb-8 flex flex-wrap gap-2">
@@ -115,7 +115,7 @@ export default function NewsPage() {
           </div>
 
           {/* Pagination */}
-          <div className="mt-12 flex justify-center">
+          {/* <div className="mt-12 flex justify-center">
             <nav className="flex space-x-2">
               <button className="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 transition-colors">
                 이전
@@ -133,7 +133,7 @@ export default function NewsPage() {
                 다음
               </button>
             </nav>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
