@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: '회사소개 | 주식회사 쉐릿',
+  title: '주식회사 쉐릿',
   description: '주식회사 쉐릿의 비전, 미션, 그리고 브랜드 스토리를 소개합니다.',
 }
 

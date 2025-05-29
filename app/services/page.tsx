@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: '서비스 | 주식회사 쉐릿',
+  title: '주식회사 쉐릿',
   description: '알프(ALF)와 밥플(Babple) - 일상을 더욱 특별하게 만드는 혁신적인 서비스를 소개합니다.',
 }
 

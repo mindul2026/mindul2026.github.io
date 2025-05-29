@@ -1,16 +1,14 @@
 # 주식회사 쉐릿 (SHERIT) 기업 홈페이지
-
-주식회사 쉐릿의 공식 기업 홈페이지입니다. 알프(ALF)와 밥플(Babple) 서비스를 소개하고, 회사의 비전과 가치를 전달합니다.
+주식회사 쉐릿의 공식 기업 홈페이지입니다.
+알프(ALF)와 밥플(Babple) 서비스를 소개하고, 회사의 비전과 가치를 전달합니다.
 
 ## 🚀 기술 스택
-
 - **Framework**: Next.js 14 (App Router)
 - **Styling**: Tailwind CSS
 - **Language**: TypeScript
 - **Deployment**: GitHub Pages
 
 ## 📁 프로젝트 구조
-
 ```
 ├── app/
 │   ├── layout.tsx          # 루트 레이아웃
@@ -65,9 +63,9 @@ GitHub Actions를 통해 자동으로 GitHub Pages에 배포됩니다.
 ## 📞 문의
 
 - 이메일: contact@sherit.co.kr
-- 전화: 02-1234-5678
-- 주소: 서울특별시 강남구 테헤란로 123 쉐릿빌딩 10층
+- 전화: 070-7798-2008
+- 주소: 전북 전주시 덕진구 만성북로 21-26, 304호
 
 ---
 
-© 2024 주식회사 쉐릿. All rights reserved. 
+© 2025 주식회사 쉐릿. All rights reserved. 
