@@ -37,15 +37,14 @@ export default function ServicesPage() {
               </div>
               
               <p className="text-lg text-gray-600 mb-6">
-                A Life-changing Platform - 당신의 일상을 변화시킵니다
+                A Learning-Focused Platform – 성공적인 학습 여정을 지원합니다  
               </p>
 
               <div className="space-y-4">
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">서비스 목적</h3>
                   <p className="text-gray-600">
-                    알프는 사용자의 일상을 더욱 스마트하고 효율적으로 만들어주는 종합 라이프스타일 플랫폼입니다. 
-                    개인화된 추천과 스마트한 기능으로 매일의 루틴을 최적화합니다.
+                    알프는 학부모와 학생, 학원 관계자가 숙제, 피드백, 출석을 관리하는 플랫폼입니다.
                   </p>
                 </div>
 
@@ -56,19 +55,13 @@ export default function ServicesPage() {
                       <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span>개인 맞춤형 일정 관리 및 추천</span>
+                      <span>학부모와 자녀의 일정 공유</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span>스마트 알림 및 리마인더</span>
-                    </li>
-                    <li className="flex items-start">
-                      <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                      <span>라이프스타일 분석 및 인사이트 제공</span>
+                      <span>피드백·출결·숙제 관리</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -82,8 +75,7 @@ export default function ServicesPage() {
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">사용자 대상</h3>
                   <p className="text-gray-600">
-                    바쁜 일상 속에서 효율적인 시간 관리를 원하는 직장인, 학생, 프리랜서 등 
-                    모든 현대인을 위한 서비스입니다.
+                    학부모와 학생, 학원 관계자 등이 사용하는 서비스입니다.
                   </p>
                 </div>
               </div>
@@ -122,8 +114,8 @@ export default function ServicesPage() {
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">서비스 목적</h3>
                   <p className="text-gray-600">
-                    밥플은 매일의 식사를 더욱 즐겁고 의미있게 만들어주는 푸드 라이프스타일 플랫폼입니다. 
-                    맛있는 음식 정보와 개인화된 추천으로 새로운 미식 경험을 제공합니다.
+                    밥플은 혼밥하는 1인 가구를 위한 라이프스타일 플랫폼입니다. 
+                    근처 가까운 지역에 있는 혼밥 가구와 함께 식사 경험을 제공합니다.
                   </p>
                 </div>
 
@@ -134,25 +126,19 @@ export default function ServicesPage() {
                       <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span>AI 기반 맞춤형 음식 추천</span>
-                    </li>
-                    <li className="flex items-start">
-                      <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
                       <span>주변 맛집 정보 및 리뷰</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span>식단 관리 및 영양 정보 제공</span>
+                      <span>본인 인증을 통한 안심 만남</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-5 h-5 text-primary-600 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span>음식 커뮤니티 및 레시피 공유</span>
+                      <span>음식 커뮤니티 정보 공유</span>
                     </li>
                   </ul>
                 </div>
@@ -160,8 +146,7 @@ export default function ServicesPage() {
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">사용자 대상</h3>
                   <p className="text-gray-600">
-                    새로운 맛을 탐험하고 싶은 미식가, 건강한 식단을 추구하는 웰빙족, 
-                    매일의 식사를 특별하게 만들고 싶은 모든 분들을 위한 서비스입니다.
+                    매일 혼자 식사를 하면서 같이 밥 먹을 지인을 찾는 1인 가구 유저들
                   </p>
                 </div>
               </div>

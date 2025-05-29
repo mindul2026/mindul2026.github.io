@@ -9,8 +9,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-bold mb-4">주식회사 쉐릿</h3>
             <p className="text-gray-300 mb-4">
-              혁신적인 라이프스타일 플랫폼을 통해<br />
-              더 나은 일상을 만들어갑니다.
+              가까운 근처를 이어서 더 나은 일상을 만드는 라이프스타일 플랫폼입니다. <br />
             </p>
             {/* <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -75,7 +74,7 @@ export default function Footer() {
 
         <div className="mt-8 pt-8 border-t border-gray-800">
           <p className="text-center text-gray-400 text-sm">
-            © 2024 주식회사 쉐릿. All rights reserved.
+            © 2025 주식회사 쉐릿. All rights reserved.
           </p>
         </div>
       </div>

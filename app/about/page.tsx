@@ -71,9 +71,8 @@ export default function AboutPage() {
                 <h3 className="text-2xl font-bold text-gray-900">알프 (ALF)</h3>
               </div>
               <p className="text-gray-600 leading-relaxed">
-                알프는 &apos;A Life-changing Platform&apos;의 약자로, 사용자의 일상을 변화시키는 플랫폼이라는 의미를 담고 있습니다. 
-                2025년 첫 출시 이후, 수많은 사용자들의 일상을 더욱 스마트하고 효율적으로 만들어왔습니다. 
-                알프는 단순한 서비스를 넘어, 사용자와 함께 성장하는 라이프스타일 파트너를 지향합니다.
+                알프는 &apos;A Learning-Focused Platform&apos;의 약자로, 성공적인 학습 여정이란 플랫폼 의미를 담고 있습니다. 
+                학부모와 자녀, 학원 선생님의 효율적인 소통 방식을 제공합니다.
               </p>
             </div>
 
@@ -89,8 +88,7 @@ export default function AboutPage() {
               </div>
               <p className="text-gray-600 leading-relaxed">
                 밥플은 &apos;밥&apos;과 &apos;People&apos;의 합성어로, 사람들의 식사를 더욱 특별하게 만든다는 의미를 담고 있습니다. 
-                매일 반복되는 식사 시간을 단순한 끼니 해결이 아닌, 즐거운 경험으로 바꾸고자 시작되었습니다. 
-                다양한 음식 정보와 맞춤형 추천을 통해 사용자들이 매일 새로운 미식 경험을 할 수 있도록 돕습니다.
+                매일 혼자 반복되는 식사 시간을 단순한 끼니 해결이 아닌, 가까운 이웃과 만나 즐거운 경험으로 바꾸고자 시작되었습니다.
               </p>
             </div>
           </div>
